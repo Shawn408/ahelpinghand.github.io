@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hacklytics</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style type="text/css">
+    .btn-large{
+        font-size: 26px;
+    }
+    .wrapper{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden !important;
+        position: fixed;
+    }
+    .btn-color{
+        background-color:purple;
+        outline-color: purple;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-12">
+                <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                    <a href="index.html" class="btn btn-large btn-light btn-color">Home</a>
+                    <a href="about.html" class="btn btn-large btn-light btn-color">About</a> 
+                  </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center space mt-5">
+            <div class="col-6">
+                <button class="btn btn-light btn-large btn-block btn-color" type="button" data-toggle="collapse" data-target="#ourMission" aria-expanded="false" aria-controls="ourMission">
+                  Our Mission
+                </button>
+              <div class="collapse" id="ourMission">
+                <div class="card card-body">
+                  Our mission is to aid charities in finding where they should allocate their efforts and resources.
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center space mt-5">
+            <div class="col-6">
+                <button class="btn btn-light btn-large btn-block btn-color" type="button" data-toggle="collapse" data-target="#whower" aria-expanded="false" aria-controls="whower">
+                  Who we are
+                </button>
+              <div class="collapse" id="whower">
+                <div class="card card-body">
+                  Website Developers: Owen Hutchins, Ustav Patel <br>
+                  Data Developers: Richard Lin, Kelvin Cheng
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
