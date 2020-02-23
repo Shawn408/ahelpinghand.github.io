@@ -90,6 +90,7 @@ $('#sortone').on('click', function(event) {
     }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');
+          $('#datasets').attr('src',"");
   });
   $('#datafour').on('click', function(event) {
     if($('#datatwo').hasClass('btn-white')){
@@ -103,4 +104,5 @@ $('#sortone').on('click', function(event) {
     }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');
+          $('#datasets').attr('src',"");
   });
