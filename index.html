@@ -5,30 +5,8 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <style type="text/css">
-    .btn-large{
-        font-size: 26px;
-    }
-    .wrapper{
-        display: flex;
-        height: 100%;
-        width: 100%;
-        flex-direction: column;
-        overflow: hidden !important;
-        position: fixed;
-        background: transparent;
-    }
-    .btn-color{
-        background-color:purple;
-        outline-color: purple;
-        color: white;
-    }
-    .btn-colorr{
-        background-color:gray;
-        outline-color: gray;
-        color: white;
-    }
-    </style>
+    <link href="stylegen.css" rel="stylesheet">
+    <link href="stylecheck.scss" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -48,26 +26,31 @@
                     <p>Please fill me!!</p>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="btn-colorr h-100">
-                    <p>I am the spot for the options!</p>
-                    <br>
-                    <p>Please fill me!!</p>
+            <div class="col-3 btn-colorr">
+                <div class="row">
+                    <form class="form">
+                        <div class="inputGroup">
+                          <input id="option1" name="option1" type="checkbox"/>
+                          <label for="option1">Option One</label>
+                        </div>
+                        
+                        <div class="inputGroup">
+                          <input id="option2" name="option2" type="checkbox"/>
+                          <label for="option2">Option Two</label>
+                        </div>
                 </div>
             </div>
         </div>
         <div class="row justify-content-md-center mt-4">
-            <div class="btn-block btn-group justify-content-md-center" role="group">
-                <div class="col-2">
-                    <div class = "btn btn-secondary btn-color" id="TwentyThirteen">2013 Data</div>
+                <div class="col-2 text-center">
+                    <div class="btn btn-secondary btn-color" id="TwentyThirteen">2013 Data</div>
                 </div>
-                <div class="col-2">
-                    <div class = "btn btn-secondary btn-color" id="TwentyFourteen">2014 Data</div>
+                <div class="col-2 text-center">
+                    <div class="btn btn-secondary btn-color" id="TwentyFourteen">2014 Data</div>
                 </div>
-                <div class="col-2">
-                    <div class = "btn btn-secondary btn-color" id="Prediction">Predictive Data</div>
+                <div class="col-2 text-center">
+                    <div class="btn btn-secondary btn-color" id="Prediction">Predictive Data</div>
                 </div>
-            </div>
         </div>
     </div>
 </body>

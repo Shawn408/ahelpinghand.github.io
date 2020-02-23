@@ -1,0 +1,22 @@
+.btn-large{
+    font-size: 26px;
+}
+.wrapper{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden !important;
+    position: fixed;
+    background: transparent;
+}
+.btn-color{
+    background-color:purple;
+    outline-color: purple;
+    color: white;
+}
+.btn-colorr{
+    background-color:gray;
+    outline-color: gray;
+    color: white;
+}
