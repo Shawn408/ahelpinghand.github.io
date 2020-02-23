@@ -90,7 +90,7 @@ $('#sortone').on('click', function(event) {
     }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');
-          $('#datasets').attr('src',"");
+          $('#datasets').attr('src',"https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=20546041-098b-4d1f-a048-141b3dfb13e1&theme=light");
   });
   $('#datafour').on('click', function(event) {
     if($('#datatwo').hasClass('btn-white')){
@@ -104,5 +104,5 @@ $('#sortone').on('click', function(event) {
     }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');
-          $('#datasets').attr('src',"");
+          $('#datasets').attr('src',"regression.png");
   });

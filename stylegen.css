@@ -12,8 +12,7 @@
     height: 100%;
     width: 100%;
     flex-direction: column;
-    overflow: hidden !important;
-    position: fixed;
+    overflow-y: hidden !important;
     background: transparent;
 }
 .wrapperhelp{
@@ -44,4 +43,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.headertxt{
+  color:purple;
 }
