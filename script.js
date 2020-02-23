@@ -1,0 +1,52 @@
+$('#sortone').on('click', function(event) {
+    if($('#sorttwo').hasClass('btn-white')){
+        $('#sorttwo').removeClass('btn-white');
+    }
+    if($('#sortthree').hasClass('btn-white')){
+        $('#sortthree').removeClass('btn-white');
+    }
+    if($('#sortfour').hasClass('btn-white')){
+        $('#sortfour').removeClass('btn-white');
+    }
+    if(!$(this).hasClass('btn-white'))
+          $(this).addClass('btn-white');
+  });
+  $('#sorttwo').on('click', function(event) {
+    if($('#sortone').hasClass('btn-white')){
+        $('#sortone').removeClass('btn-white');
+    }
+    if($('#sortthree').hasClass('btn-white')){
+        $('#sortthree').removeClass('btn-white');
+    }
+    if($('#sortfour').hasClass('btn-white')){
+        $('#sortfour').removeClass('btn-white');
+    }
+    if(!$(this).hasClass('btn-white'))
+          $(this).addClass('btn-white');
+  });
+  $('#sortthree').on('click', function(event) {
+    if($('#sortone').hasClass('btn-white')){
+        $('#sortone').removeClass('btn-white');
+    }
+    if($('#sorttwo').hasClass('btn-white')){
+        $('#sorttwo').removeClass('btn-white');
+    }
+    if($('#sortfour').hasClass('btn-white')){
+        $('#sortfour').removeClass('btn-white');
+    }
+    if(!$(this).hasClass('btn-white'))
+          $(this).addClass('btn-white');
+  });
+  $('#sortfour').on('click', function(event) {
+    if($('#sortone').hasClass('btn-white')){
+        $('#sortone').removeClass('btn-white');
+    }
+    if($('#sorttwo').hasClass('btn-white')){
+        $('#sorttwo').removeClass('btn-white');
+    }
+    if($('#sortthree').hasClass('btn-white')){
+        $('#sortthree').removeClass('btn-white');
+    }
+    if(!$(this).hasClass('btn-white'))
+          $(this).addClass('btn-white');
+  });

@@ -1,5 +1,11 @@
 .btn-large{
     font-size: 26px;
+    width: 100%;
+    padding: 0px !important;
+}
+.btn-menu{
+  height: 50px;
+  text-align: center;
 }
 .wrapper{
     display: flex;
@@ -14,9 +20,15 @@
     background-color:purple;
     outline-color: purple;
     color: white;
+    text-align: center;
 }
 .btn-colorr{
     background-color:gray;
     outline-color: gray;
     color: white;
+}
+.btn-white{
+  background-color:white;
+  outline-color: white;
+  color: purple;
 }
