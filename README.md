@@ -1,1 +1,2 @@
 # https://shawn408.github.io/ahelpinghand.github.io/
+Mission: We made a website with github.io called A Helping Hand. This website helps charities see data from each state depending on the year which is currently 2013 and 2014 data sets. There is a predicition of how homelessness will change in the states for 2015. A help out tab is on the website to help charities contact three statewide organizations that help people who are homelessness. That is all currently the website is used for. 
