@@ -16,6 +16,13 @@
     position: fixed;
     background: transparent;
 }
+.wrapperhelp{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  background: transparent;
+}
 .btn-color{
     background-color:purple;
     outline-color: purple;
@@ -31,4 +38,10 @@
   background-color:white;
   outline-color: white;
   color: purple;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

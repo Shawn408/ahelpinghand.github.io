@@ -57,9 +57,12 @@ $('#sortone').on('click', function(event) {
     if($('#datathree').hasClass('btn-white')){
         $('#datathree').removeClass('btn-white');
     }
+    if($('#datafour').hasClass('btn-white')){
+        $('#datafour').removeClass('btn-white');
+    }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');
-          $('#datasets').attr('src',"https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=5e09f2b1-de7a-4a70-8220-ea6407591fd5&theme=light");
+          $('#datasets').attr('src',"https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=5e09f2b1-de7a-4a70-8220-ea6407591fd5&theme=light&attribution=false");
   });
   $('#datatwo').on('click', function(event) {
     if($('#dataone').hasClass('btn-white')){
@@ -68,9 +71,12 @@ $('#sortone').on('click', function(event) {
     if($('#datathree').hasClass('btn-white')){
         $('#datathree').removeClass('btn-white');
     }
+    if($('#datafour').hasClass('btn-white')){
+        $('#datafour').removeClass('btn-white');
+    }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');
-          $('#datasets').attr('src',"https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=a3f65dfb-75d6-4caa-acdc-be011ac7e9de&theme=light");
+          $('#datasets').attr('src',"https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=a3f65dfb-75d6-4caa-acdc-be011ac7e9de&theme=light&attribution=false");
   });
   $('#datathree').on('click', function(event) {
     if($('#datatwo').hasClass('btn-white')){
@@ -78,6 +84,22 @@ $('#sortone').on('click', function(event) {
     }
     if($('#dataone').hasClass('btn-white')){
         $('#dataone').removeClass('btn-white');
+    }
+    if($('#datafour').hasClass('btn-white')){
+        $('#datafour').removeClass('btn-white');
+    }
+    if(!$(this).hasClass('btn-white'))
+          $(this).addClass('btn-white');
+  });
+  $('#datafour').on('click', function(event) {
+    if($('#datatwo').hasClass('btn-white')){
+        $('#datatwo').removeClass('btn-white');
+    }
+    if($('#dataone').hasClass('btn-white')){
+        $('#dataone').removeClass('btn-white');
+    }
+    if($('#datathree').hasClass('btn-white')){
+        $('#datathree').removeClass('btn-white');
     }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');

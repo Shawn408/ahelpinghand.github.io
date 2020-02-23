@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link href="stylegen.css" rel="stylesheet">
-    <link href="stylecheck.scss" rel="stylesheet">
     <script>
         function renderSignedAuthChart(chartId, iframeId) {
             const embedUrlRequest = new Request(`/api/embeddedchart/${chartId}`);
@@ -23,16 +22,17 @@
                 <div class="btn-group btn-block" role="group" aria-label="Basic example">
                     <a href="index.html" class="btn btn-menu btn-large btn-light btn-color">Home</a>
                     <a href="about.html" class="btn btn-menu btn-large btn-light btn-color">About</a> 
+                    <a href="help.html" class="btn btn-menu btn-large btn-light btn-color">Help Out</a> 
                   </div>
             </div>
         </div>
-        <div class="row justify-content-md-center mt-5" style="height: 500px;">
+        <div class="row justify-content-md-center mt-4" style="height: 550px;">
             <div class="col-6 mr-3 ml-3">
                 <div class="btn-color h-100">
-                    <iframe id="datasets" style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" height="100%" width="100%" src="https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=5e09f2b1-de7a-4a70-8220-ea6407591fd5&theme=light"></iframe>
+                    <iframe id="datasets" style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" height="100%" width="100%" src="https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=5e09f2b1-de7a-4a70-8220-ea6407591fd5&theme=lightauto&attribution=false&sort=total:1"></iframe>
                 </div>
             </div>
-            <div class="col-3" style="height: 75%;">
+            <!-- <div class="col-3" style="height: 75%;">
                 <div class="row h-25">
                     <div class="btn btn-large btn-light btn-white btn-color" id="sortone">1-9</div>
                 </div>
@@ -47,7 +47,7 @@
                 <div class="row h-25">
                     <div class="btn btn-large btn-light btn-color" id="sortfour">Z-A</div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="row justify-content-md-center mt-4">
                 <div class="col-2 text-center">
@@ -57,7 +57,10 @@
                     <div class="btn btn-light btn-color" id="datatwo">2014 Data</div>
                 </div>
                 <div class="col-2 text-center">
-                    <div class="btn btn-light btn-color" id="datathree">Predictive Data</div>
+                    <div class="btn btn-light btn-color" id="datathree">2014/2015 Data</div>
+                </div>
+                <div class="col-2 text-center">
+                    <div class="btn btn-light btn-color" id="datafour">Predictive 2015 Data</div>
                 </div>
         </div>
     </div>
