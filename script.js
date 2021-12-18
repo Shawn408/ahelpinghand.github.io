@@ -62,7 +62,7 @@ $('#sortone').on('click', function(event) {
     }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');
-          $('#datasets').attr('src',"https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=5e09f2b1-de7a-4a70-8220-ea6407591fd5&theme=light&attribution=false");
+          $('#datasets').attr('src',"https://charts.mongodb.com/charts-fibonacci-qnijn/embed/charts?id=6f24ba63-b9ac-4e31-9cdb-c513f41aedbc&maxDataAge=3600&theme=light&autoRefresh=true");
   });
   $('#datatwo').on('click', function(event) {
     if($('#dataone').hasClass('btn-white')){
@@ -76,7 +76,7 @@ $('#sortone').on('click', function(event) {
     }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');
-          $('#datasets').attr('src',"https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=a3f65dfb-75d6-4caa-acdc-be011ac7e9de&theme=light&attribution=false");
+          $('#datasets').attr('src',"https://charts.mongodb.com/charts-fibonacci-qnijn/embed/charts?id=c3e1cde9-5518-49fd-9dac-c2f87fce4567&maxDataAge=3600&theme=light&autoRefresh=true");
   });
   $('#datathree').on('click', function(event) {
     if($('#datatwo').hasClass('btn-white')){
@@ -90,7 +90,7 @@ $('#sortone').on('click', function(event) {
     }
     if(!$(this).hasClass('btn-white'))
           $(this).addClass('btn-white');
-          $('#datasets').attr('src',"https://charts.mongodb.com/charts-hacklytics-qvwug/embed/charts?id=20546041-098b-4d1f-a048-141b3dfb13e1&theme=light");
+          $('#datasets').attr('src',"https://charts.mongodb.com/charts-fibonacci-qnijn/embed/charts?id=55bb71a2-5aa2-4a86-b63f-236f30aa4cf1&maxDataAge=3600&theme=light&autoRefresh=true");
   });
   $('#datafour').on('click', function(event) {
     if($('#datatwo').hasClass('btn-white')){
